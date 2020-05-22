@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mexican Menu</title>
+<link rel="stylesheet" href="css/styles.css">
+<title>Mexican menu</title>
 <style>
 
 /********** Base styles **********/
@@ -13,31 +14,70 @@
 }
 h1 {
   margin-bottom: 15px;
+  font-size: monospace;
+  font-style: italic;
+  color:#4CC9FF;
+  size: 20px;
+  text-align-last: center;
+}
+body{
+ background-color: #E4F57A;
+ margin:0;
+ padding: 0;
 }
 
 p {
   border: 1px solid black;
   background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
+  width: 100px;
+  height: 30px;
+  font-family: monospace;
   color: white;
+  text-align: center;
+  font-size: 20px;
+   
+  
+  
 }
 
-#content1{
-  margin-right: auto;
-  margin-left: auto;
+#p1{
+  background-color: blue;
+  position: absolute;
+  top:-20px;
+  left:345px;
+}
+#p2{
+  background-color: pink;
+  position: absolute;
+  top:-20px;
+  left:345px;
+}
+#p3{
+  background-color: yellow;
+  position: absolute;
+  top:-20px;
+  left:345px;
+  
+}
 
+div#div1 {
+  background-color: #B5FAFA;
+  position: relative;
+  padding: 30px;
+
+  
 }
-#content2{
-  margin-right: auto;
-  margin-left: auto;
+div#div2 {
+  background-color: #B5FAFA;
+  position: relative;
+  padding: 30px;
+  
 }
-#content3{
-  margin-right: auto;
-  margin-left: auto;
+div#div3 {
+  background-color: #B5FAFA;
+  position: relative;
+  padding: 30px;
+ 
 }
 
 /* Simple Responsive Framework. */
@@ -93,7 +133,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    
   }
   .col-md-1 {
     width: 8.33%;
@@ -179,12 +219,16 @@ p {
 </style>
 </head>
 <body>
-<h1>Mexican Menu</h1>
+<h1>Frida Khalo's favorite dishes</h1>
 
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12"><p>Item 1</p></div>
-  <div class="col-lg-4 col-md-6 col-sm-12"><p>Item 2</p></div>
-  <div class="col-lg-4 col-md-12 col-sm-12"><p>Item 3</p></div>
+<div id="container" class="row">
+  <div id="div1" class="col-lg-4 col-md-6 col-sm-12">A taco is a traditional Mexican dish consisting of a small hand-sized corn or wheat tortilla topped with a filling. The tortilla is then folded around the filling and eaten by hand. A taco can be made with a variety of fillings, including beef, pork, chicken, seafood, vegetables, and cheese, allowing great versatility and variety.<p id="p1">Tacos</p></div>
+
+  <div id="div2" class="col-lg-4 col-md-6 col-sm-12">Pozole which means "hominy", is a traditional soup or stew from Mexican cuisine. It is made from hominy, with meat (typically pork), and can be seasoned and garnished with shredded lettuce or onion, garlic, radishes, avocado, salsa or limes.Pozole is typically served on New Year's Eve to celebrate the new year<p id="p2">Pozole</p>
+  </div>
+  
+
+  <div id="div3" class="col-lg-4 col-md-12 col-sm-12">Mole is a traditional marinade and sauce originally used in Mexican cuisine. In contemporary Mexico the term is used for a number of sauces, some quite dissimilar, including black, red / Colorado, yellow, green, almendrado, de olla, huaxmole, guacamole, and pipián. Very delicious typicqlly to celebrate anniversaries<p id="p3">Mole</p></div>
 </div>
 
 </body>
