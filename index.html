@@ -16,7 +16,7 @@ h1 {
   margin-bottom: 15px;
   font-size: monospace;
   font-style: italic;
-  color:#4CC9FF;
+  color:#6E66B6;
   size: 20px;
   text-align-last: center;
 }
@@ -35,51 +35,56 @@ p {
   color: white;
   text-align: center;
   font-size: 20px;
-   
-  
-  
+    
 }
 
 #p1{
-  background-color: blue;
+  background-color: #6D1177;
   position: absolute;
   top:-20px;
-  left:345px;
+  left:295px;
 }
 #p2{
-  background-color: pink;
+  background-color: #EF147A;
   position: absolute;
   top:-20px;
-  left:345px;
+  left:295px;
 }
 #p3{
-  background-color: yellow;
+  background-color: pink;
   position: absolute;
-  top:-20px;
-  left:345px;
+   top:-20px;
+  left:295px;
   
 }
 
-div#div1 {
-  background-color: #B5FAFA;
+#container {
+  padding: 30px 10px 10px 10px;
+  background-color: #B5FAB9;
+  border: 3px solid black;
+  margin: 20px;
+  width: 400px;
   position: relative;
-  padding: 30px;
+}
 
-  
-}
-div#div2 {
-  background-color: #B5FAFA;
+#container2 {
+  padding: 30px 10px 10px 10px;
+  background-color: #B5FAB9;
+  border: 3px solid black;
+  margin: 20px;
+  width: 400px;
   position: relative;
-  padding: 30px;
-  
 }
-div#div3 {
-  background-color: #B5FAFA;
+
+#container3 {
+  padding: 30px 10px 10px 10px;
+  background-color: #B5FAB9;
+  border: 3px solid black;
+  margin: 20px;
+  width: 400px;
   position: relative;
-  padding: 30px;
  
 }
-
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -89,7 +94,7 @@ div#div3 {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+   
   }
   .col-lg-1 {
     width: 8.33%;
@@ -133,7 +138,37 @@ div#div3 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    
+    }
+  #p3{
+  background-color: yellow;
+  position: absolute;
+  top:-20px;
+  left:735px;
+  
+}
+  #container {
+  padding: 30px 10px 10px 10px;
+  background-color: #B5FAB9;
+  border: 3px solid black;
+  position: relative;
+  }
+
+  #container2 {
+  padding: 30px 10px 10px 10px;
+  background-color: #B5FAB9;
+  border: 3px solid black;
+  position: relative;
+}
+
+  #container3 {
+  padding: 30px 10px 10px 10px;
+  background-color: #B5FAB9;
+  border: 3px solid black;
+  margin: 20px;
+  width: 840px;
+  position: relative;
+ 
+}
   }
   .col-md-1 {
     width: 8.33%;
@@ -219,16 +254,18 @@ div#div3 {
 </style>
 </head>
 <body>
-<h1>Frida Khalo's favorite dishes</h1>
+<h1>Best mexican dishes</h1>
 
-<div id="container" class="row">
-  <div id="div1" class="col-lg-4 col-md-6 col-sm-12">A taco is a traditional Mexican dish consisting of a small hand-sized corn or wheat tortilla topped with a filling. The tortilla is then folded around the filling and eaten by hand. A taco can be made with a variety of fillings, including beef, pork, chicken, seafood, vegetables, and cheese, allowing great versatility and variety.<p id="p1">Tacos</p></div>
+<div id="container" class="col-lg-4 col-md-3 col-sm-2">
+  A taco is a traditional Mexican dish consisting of a small hand-sized corn or wheat tortilla topped with a filling. The tortilla is then folded around the filling and eaten by hand. A taco can be made with a variety of fillings, including beef, pork, chicken, seafood, vegetables, and cheese, allowing great versatility and variety.
+  <p id="p1">Tacos</p>
+ </div>
+ <div id="container2" class="col-lg-4 col-md-3 col-sm-2">
+  Pozole which means "hominy", is a traditional soup or stew from Mexican cuisine. It is made from hominy, with meat (typically pork), and can be seasoned and garnished with shredded lettuce or onion, garlic, radishes, avocado, salsa or limes.Pozole is typically served on New Year's Eve to celebrate the new year<p id="p2">Pozole</p>
+ </div> 
 
-  <div id="div2" class="col-lg-4 col-md-6 col-sm-12">Pozole which means "hominy", is a traditional soup or stew from Mexican cuisine. It is made from hominy, with meat (typically pork), and can be seasoned and garnished with shredded lettuce or onion, garlic, radishes, avocado, salsa or limes.Pozole is typically served on New Year's Eve to celebrate the new year<p id="p2">Pozole</p>
-  </div>
-  
-
-  <div id="div3" class="col-lg-4 col-md-12 col-sm-12">Mole is a traditional marinade and sauce originally used in Mexican cuisine. In contemporary Mexico the term is used for a number of sauces, some quite dissimilar, including black, red / Colorado, yellow, green, almendrado, de olla, huaxmole, guacamole, and pipián. Very delicious typicqlly to celebrate anniversaries<p id="p3">Mole</p></div>
+  <div id="container3" class="col-lg-3 col-md-12 col-sm-2">Mole is a traditional marinade and sauce originally used in Mexican cuisine. In contemporary Mexico the term is used for a number of sauces, some quite dissimilar, including black, red Colorado, yellow, green, almendrado, de olla, huaxmole, guacamole, and pipián. Very delicious typicqlly to celebrate  anniversaries<p id="p3">Mole</p>
+ </div>
 </div>
 
 </body>
